@@ -42,7 +42,7 @@ if ( $address ) {
 				GROUP BY int_id
 				ORDER BY int_id
 			)
-			LIMIT 101
+			
 		)
 		UNION ALL
 		(
@@ -53,7 +53,7 @@ if ( $address ) {
 				GROUP BY int_id
 				ORDER BY int_id
 			)
-			LIMIT 101
+			
 		)
 		ORDER BY int_id, created, address DESC
 		LIMIT 101
